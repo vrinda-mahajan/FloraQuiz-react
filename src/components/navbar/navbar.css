@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.app-name {
+    color: var(--heading-color);
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    font-family: 'Shadows Into Light', cursive;
+}

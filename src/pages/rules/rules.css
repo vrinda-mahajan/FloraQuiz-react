@@ -1,0 +1,23 @@
+.rules-container {
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 3px 2px var(--box-shadow);
+    margin: auto;
+    margin-top: 5.6rem;
+    width: 50%;   
+}
+.rules-img {
+    width: 8rem;
+}
+.rules {
+    padding: 1rem 4rem;
+}
+
+@media screen and (max-width:480px){
+    html{
+        font-size: 50%;
+    }
+    .rules-container {
+        width: 90%;
+    }
+}

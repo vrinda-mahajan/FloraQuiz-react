@@ -1,0 +1,33 @@
+/* Header Container */
+.header-container {
+    position: relative;
+    margin: 2rem 10rem;
+}
+.header-img {
+    border-radius: 1rem;
+}
+.header-img-overlay {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 6rem;
+}
+.header-img-text {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 7rem;
+    color: #F5F2E7;
+    margin-bottom: 5rem;
+}
+
+/* Category Container */
+.category-text {
+    margin: 5rem 0;
+}
+.category-container{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.card-img {
+    margin-bottom: 1rem;
+}

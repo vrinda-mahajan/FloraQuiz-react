@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+html {
+    height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    height: 100%;
+}
+
+@media screen and (max-width:786px) {
+  .header-img-overlay {
+    top: 2rem;
+  }
+  .header-img-text{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width:480px) {
+  .header-img-text{
+      font-size: 3.2rem;
+  }
 }
