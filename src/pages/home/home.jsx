@@ -5,10 +5,11 @@ import { collection, getDocs } from "firebase/firestore"
 import { db } from "firebaseConfig"
 import { useState,useEffect } from "react"
 import { TailSpin } from  'react-loader-spinner'
+import { useGlobal } from "context/globalContext"
 
 export const Home = () => {
     const [categories,setCategories] = useState([])
-
+    const {globalDispatch} = useGlobal()
     useEffect(() => {
         const categoryColRef = collection(db,"categories");
         (async () => {
@@ -21,7 +22,9 @@ export const Home = () => {
             }
         })();
     },[])
-
+    useEffect(()=>{
+        globalDispatch({type:"SET_INITIAL_STATE"})
+    },[globalDispatch])
     return(
         <>
         <div className="header-container">
@@ -37,7 +40,7 @@ export const Home = () => {
             <>
             {categories.map((category)=>(
                 <CategoryCard key={category.id} category={category} />
-            )).reverse()}</>
+            ))}</>
             :<TailSpin
             height="100"
             width="100"

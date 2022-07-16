@@ -1,0 +1,25 @@
+.result-container {
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 2px var(--box-shadow);
+}
+
+.result-img {
+    width: 10rem;
+}
+
+.answers {
+    margin-top: 10rem;
+}
+
+.option-correct {
+    background-color: var(--primary-color);
+}
+
+.option-wrong {
+    background-color: var(--error-color);
+}
+
+.pointer-event-none {
+    pointer-events: none;
+}
