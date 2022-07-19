@@ -13,7 +13,7 @@ FloraQuiz is a quiz app bulid to test your knowledge about the greens. This webs
 
 ## 📽️ Demo
 
-![](https://user-images.githubusercontent.com/72399705/179765429-f725bb43-f8bd-4c18-8516-fae06ba9e9c8.mp4)
+https://user-images.githubusercontent.com/72399705/179765429-f725bb43-f8bd-4c18-8516-fae06ba9e9c8.mp4
 
 
 
