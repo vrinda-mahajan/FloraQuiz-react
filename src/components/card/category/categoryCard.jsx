@@ -1,8 +1,7 @@
 import { useGlobal } from "context/globalContext"
 import { Link } from "react-router-dom"
 
-export const CategoryCard = ({category}) => {
-    const {type,img,id} = category
+export const CategoryCard = ({category:{type,img,id}}) => {
     const {globalDispatch} = useGlobal()
     
     return (

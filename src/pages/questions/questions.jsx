@@ -27,7 +27,7 @@ export const Questions = () => {
                 globalDispatch({type:"SET_QUIZ_DATA",payload:allQuizzes})
                 setLoading(false)
             } catch (err) {
-                console.log(err)
+                console.error(err)
             }
         })();
     },[globalDispatch,selectedQuiz])
